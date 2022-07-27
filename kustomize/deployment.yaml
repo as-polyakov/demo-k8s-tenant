@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-k8s
-        image: ghcr.io/as-polyakov/demo-k8s:v3
+        image: ghcr.io/as-polyakov/demo-k8s:v4
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
